@@ -6,13 +6,12 @@
  * @flow
  */
 
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import {
   SafeAreaView,
   StyleSheet,
   ScrollView,
   View,
-  Text,
   StatusBar,
 } from 'react-native';
 
@@ -23,27 +22,56 @@ import {
   DebugInstructions,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
-import params from './src/params';
-import Field from  './src/components/field/Field';
-
-export default class App extends Component {
+import Field from './src/components/field/Field';
+import MineField from './src/components/mineField/MineField.js';
+import { createMinedBoard } from './src/controller.js';
+import params from './src/params.js';
+export default class APP extends Component {
   
-  render(){
-    return (
-      <View>
-        <Text>
-          Tamanho da grade:
-          { params.getRowAmount() } x { params.getColumnsAmount() }
-        </Text>
-        <View>
-            <Field />
-            <Field opened/>
-            <Field opened nearMines={1}/>
-            <Field opened nearMines={2}/>
-            <Field opened nearMines={3}/>
-            <Field opened nearMines={8}/>
+  constructor(props) {
+    super(props);
+    this.state = this.createState();
+  }
+
+  //Create limit number mines in board game
+  minesAmount = () => {
+    const cols = params. getColumnsAmount();
+    const rows = params.getRowAmount();
+
+    return Math.ceil(cols * rows  * params.difficultLevel);
+  }
+
+  // Create state(React) to change states in blocks at board game
+  createState = () => {
+    const cols = params.getColumnsAmount();
+    const rows = params.getRowAmount();
+
+    return {
+      board: createMinedBoard(rows, cols, this.minesAmount())
+    }
+  }
+
+  render() {
+    
+      return (
+        <View style={ styles.container }>
+          <View style={ styles.board }>
+            <MineField board={ this.state.board } />
+          </View>
         </View>
-      </View>
-    )
-  };
+    );
+  }
 }
+
+const styles = StyleSheet.create({
+
+  container: {
+    flex: 1,
+    justifyContent: 'flex-end',
+  },
+  board: {
+    alignItems: 'center',
+    backgroundColor: '#AAA'
+  }
+ 
+});

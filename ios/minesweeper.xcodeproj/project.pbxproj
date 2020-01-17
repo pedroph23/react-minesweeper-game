@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* mineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* mineTests.m */; };
+		00E356F31AD99517003FC87E /* minesweeperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* minesweeperTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		14A6A4AADFA338EB84F4BB7A /* libPods-mineTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E1404983A04BCF22FA4F8C8 /* libPods-mineTests.a */; };
-		1677389E21F25CB9DB579EF2 /* libPods-mine-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 958DE42DEB869C7AD354FDA4 /* libPods-mine-tvOS.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* mineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* mineTests.m */; };
-		A65410215946C2C1FFFE0D42 /* libPods-mine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB346B762B898B4D229CF484 /* libPods-mine.a */; };
-		EDCCF11AD23307B37E8414C0 /* libPods-mine-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D28C1760EF37B320931F1BA0 /* libPods-mine-tvOSTests.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* minesweeperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* minesweeperTests.m */; };
+		79D2AF2876049FCC3EE7EBA6 /* libPods-minesweeper-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 435ABBBCA96EA833BB7F1494 /* libPods-minesweeper-tvOS.a */; };
+		9748C2F7B9F05BFDA020F36F /* libPods-minesweeper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A8491D6657CA7C400063215 /* libPods-minesweeper.a */; };
+		9E08B5C0FDFFF3D74B844A4A /* libPods-minesweeperTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3C690077A236750AEEDB2A4 /* libPods-minesweeperTests.a */; };
+		DE11EF95CFA3128FB9523BE2 /* libPods-minesweeper-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D24BF157B3FFE3F857EC50E /* libPods-minesweeper-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,45 +28,45 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = mine;
+			remoteInfo = minesweeper;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "mine-tvOS";
+			remoteInfo = "minesweeper-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* mineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* minesweeperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = minesweeperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* mineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mineTests.m; sourceTree = "<group>"; };
-		02E8E91C139A5031C86852DD /* Pods-mine-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mine-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-mine-tvOS/Pods-mine-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* mine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mine.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = mine/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = mine/AppDelegate.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* minesweeperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = minesweeperTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* minesweeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = minesweeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = minesweeper/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = minesweeper/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = mine/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = mine/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = mine/main.m; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* mine-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mine-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* mine-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mine-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		37B3D80C0B92F4B1942CCDD9 /* Pods-mine-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mine-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mine-tvOSTests/Pods-mine-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		417F11D4371A159004D7E372 /* Pods-mine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mine.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mine/Pods-mine.debug.xcconfig"; sourceTree = "<group>"; };
-		5E1404983A04BCF22FA4F8C8 /* libPods-mineTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mineTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6ED88C04805F7F68557794ED /* Pods-mine-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mine-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-mine-tvOSTests/Pods-mine-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		958DE42DEB869C7AD354FDA4 /* libPods-mine-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mine-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		989874AC7BA06583B7ECD367 /* Pods-mine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mine.release.xcconfig"; path = "Pods/Target Support Files/Pods-mine/Pods-mine.release.xcconfig"; sourceTree = "<group>"; };
-		CC60B900B900AD38005BDFBA /* Pods-mine-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mine-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mine-tvOS/Pods-mine-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		D28C1760EF37B320931F1BA0 /* libPods-mine-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mine-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF4ED1E6CE7F575777760890 /* Pods-mineTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mineTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-mineTests/Pods-mineTests.release.xcconfig"; sourceTree = "<group>"; };
-		EB346B762B898B4D229CF484 /* libPods-mine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mine.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = minesweeper/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = minesweeper/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = minesweeper/main.m; sourceTree = "<group>"; };
+		1D24BF157B3FFE3F857EC50E /* libPods-minesweeper-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-minesweeper-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E47B1E0B4A5D006451C7 /* minesweeper-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "minesweeper-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* minesweeper-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "minesweeper-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		435ABBBCA96EA833BB7F1494 /* libPods-minesweeper-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-minesweeper-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		504A1BC60B75D8DB44F44D22 /* Pods-minesweeperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-minesweeperTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-minesweeperTests/Pods-minesweeperTests.debug.xcconfig"; sourceTree = "<group>"; };
+		59F8A4ABC7498A5BBB8EFFD0 /* Pods-minesweeper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-minesweeper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-minesweeper/Pods-minesweeper.debug.xcconfig"; sourceTree = "<group>"; };
+		5A8491D6657CA7C400063215 /* libPods-minesweeper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-minesweeper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7249C2497C2DBC8035483E63 /* Pods-minesweeper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-minesweeper.release.xcconfig"; path = "Pods/Target Support Files/Pods-minesweeper/Pods-minesweeper.release.xcconfig"; sourceTree = "<group>"; };
+		77E9817967235BDEAF1315CE /* Pods-minesweeper-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-minesweeper-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-minesweeper-tvOSTests/Pods-minesweeper-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		9C2EFAA8D8ED415214CC1AEA /* Pods-minesweeper-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-minesweeper-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-minesweeper-tvOSTests/Pods-minesweeper-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BAE4836F0CA0AC3C241FD11F /* Pods-minesweeper-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-minesweeper-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-minesweeper-tvOS/Pods-minesweeper-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		C3C690077A236750AEEDB2A4 /* libPods-minesweeperTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-minesweeperTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		FFAE63E55A31383DEA6FF4BC /* Pods-mineTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mineTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mineTests/Pods-mineTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F46BA32C58B33306D10F2300 /* Pods-minesweeperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-minesweeperTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-minesweeperTests/Pods-minesweeperTests.release.xcconfig"; sourceTree = "<group>"; };
+		FC0FD32B3423116910B59C2D /* Pods-minesweeper-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-minesweeper-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-minesweeper-tvOS/Pods-minesweeper-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14A6A4AADFA338EB84F4BB7A /* libPods-mineTests.a in Frameworks */,
+				9E08B5C0FDFFF3D74B844A4A /* libPods-minesweeperTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A65410215946C2C1FFFE0D42 /* libPods-mine.a in Frameworks */,
+				9748C2F7B9F05BFDA020F36F /* libPods-minesweeper.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1677389E21F25CB9DB579EF2 /* libPods-mine-tvOS.a in Frameworks */,
+				79D2AF2876049FCC3EE7EBA6 /* libPods-minesweeper-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,20 +98,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDCCF11AD23307B37E8414C0 /* libPods-mine-tvOSTests.a in Frameworks */,
+				DE11EF95CFA3128FB9523BE2 /* libPods-minesweeper-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* mineTests */ = {
+		00E356EF1AD99517003FC87E /* minesweeperTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* mineTests.m */,
+				00E356F21AD99517003FC87E /* minesweeperTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = mineTests;
+			path = minesweeperTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -122,7 +122,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* mine */ = {
+		13B07FAE1A68108700A75B9A /* minesweeper */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -133,7 +133,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = mine;
+			name = minesweeper;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -141,12 +141,27 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				EB346B762B898B4D229CF484 /* libPods-mine.a */,
-				958DE42DEB869C7AD354FDA4 /* libPods-mine-tvOS.a */,
-				D28C1760EF37B320931F1BA0 /* libPods-mine-tvOSTests.a */,
-				5E1404983A04BCF22FA4F8C8 /* libPods-mineTests.a */,
+				5A8491D6657CA7C400063215 /* libPods-minesweeper.a */,
+				435ABBBCA96EA833BB7F1494 /* libPods-minesweeper-tvOS.a */,
+				1D24BF157B3FFE3F857EC50E /* libPods-minesweeper-tvOSTests.a */,
+				C3C690077A236750AEEDB2A4 /* libPods-minesweeperTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77920DF01A37E917DBCD6C52 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59F8A4ABC7498A5BBB8EFFD0 /* Pods-minesweeper.debug.xcconfig */,
+				7249C2497C2DBC8035483E63 /* Pods-minesweeper.release.xcconfig */,
+				FC0FD32B3423116910B59C2D /* Pods-minesweeper-tvOS.debug.xcconfig */,
+				BAE4836F0CA0AC3C241FD11F /* Pods-minesweeper-tvOS.release.xcconfig */,
+				9C2EFAA8D8ED415214CC1AEA /* Pods-minesweeper-tvOSTests.debug.xcconfig */,
+				77E9817967235BDEAF1315CE /* Pods-minesweeper-tvOSTests.release.xcconfig */,
+				504A1BC60B75D8DB44F44D22 /* Pods-minesweeperTests.debug.xcconfig */,
+				F46BA32C58B33306D10F2300 /* Pods-minesweeperTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -159,12 +174,12 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* mine */,
+				13B07FAE1A68108700A75B9A /* minesweeper */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* mineTests */,
+				00E356EF1AD99517003FC87E /* minesweeperTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				B821DB4E2E3A886B88C0C381 /* Pods */,
+				77920DF01A37E917DBCD6C52 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -174,116 +189,101 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* mine.app */,
-				00E356EE1AD99517003FC87E /* mineTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* mine-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* mine-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* minesweeper.app */,
+				00E356EE1AD99517003FC87E /* minesweeperTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* minesweeper-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* minesweeper-tvOSTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		B821DB4E2E3A886B88C0C381 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				417F11D4371A159004D7E372 /* Pods-mine.debug.xcconfig */,
-				989874AC7BA06583B7ECD367 /* Pods-mine.release.xcconfig */,
-				CC60B900B900AD38005BDFBA /* Pods-mine-tvOS.debug.xcconfig */,
-				02E8E91C139A5031C86852DD /* Pods-mine-tvOS.release.xcconfig */,
-				37B3D80C0B92F4B1942CCDD9 /* Pods-mine-tvOSTests.debug.xcconfig */,
-				6ED88C04805F7F68557794ED /* Pods-mine-tvOSTests.release.xcconfig */,
-				FFAE63E55A31383DEA6FF4BC /* Pods-mineTests.debug.xcconfig */,
-				DF4ED1E6CE7F575777760890 /* Pods-mineTests.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* mineTests */ = {
+		00E356ED1AD99517003FC87E /* minesweeperTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "mineTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "minesweeperTests" */;
 			buildPhases = (
-				B1E47F8FB3C309AC7D1B6DD7 /* [CP] Check Pods Manifest.lock */,
+				FDFF4B6DEDFD226814A79540 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				DF7625C9CE2681EE71EADAA3 /* [CP] Embed Pods Frameworks */,
-				9CF73C35AECDC090C6456EA6 /* [CP] Copy Pods Resources */,
+				22EF5169EBA7BAEE8A9A1828 /* [CP] Embed Pods Frameworks */,
+				F42858800386A8ECD20A644D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = mineTests;
-			productName = mineTests;
-			productReference = 00E356EE1AD99517003FC87E /* mineTests.xctest */;
+			name = minesweeperTests;
+			productName = minesweeperTests;
+			productReference = 00E356EE1AD99517003FC87E /* minesweeperTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* mine */ = {
+		13B07F861A680F5B00A75B9A /* minesweeper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "mine" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "minesweeper" */;
 			buildPhases = (
-				03A658CE5EFDDFB9E5741C44 /* [CP] Check Pods Manifest.lock */,
+				B7190EFE2C21175516C94BBA /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				4D077F545A649049AA1BFF07 /* [CP] Embed Pods Frameworks */,
-				CF3F4EEF376FBDC7365D0B3C /* [CP] Copy Pods Resources */,
+				B2B75D33C96D111C42883D4B /* [CP] Embed Pods Frameworks */,
+				3B20E0A8DF317E548F50AB67 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = mine;
-			productName = mine;
-			productReference = 13B07F961A680F5B00A75B9A /* mine.app */;
+			name = minesweeper;
+			productName = minesweeper;
+			productReference = 13B07F961A680F5B00A75B9A /* minesweeper.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* mine-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* minesweeper-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "mine-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "minesweeper-tvOS" */;
 			buildPhases = (
-				A05E56F0929A69A57C863A23 /* [CP] Check Pods Manifest.lock */,
+				DC2014376AA212503D1CAF3A /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
 				2D02E4791E0B4A5D006451C7 /* Resources */,
 				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
-				9E2A776FC9049B8A63FDC0FE /* [CP] Embed Pods Frameworks */,
-				0B25511E109220AA114A9D14 /* [CP] Copy Pods Resources */,
+				7D40FA31CD86AB606E61D5D7 /* [CP] Embed Pods Frameworks */,
+				159D6625EFA3C0F2F484FA15 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "mine-tvOS";
-			productName = "mine-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* mine-tvOS.app */;
+			name = "minesweeper-tvOS";
+			productName = "minesweeper-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* minesweeper-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* mine-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* minesweeper-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "mine-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "minesweeper-tvOSTests" */;
 			buildPhases = (
-				0DEC9C0E8663A98BFE88A373 /* [CP] Check Pods Manifest.lock */,
+				D2301A95C4B5A187FF236844 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
-				D0CDDB52A86A107607CF004A /* [CP] Embed Pods Frameworks */,
-				845FE36A4F95E91CD5BF63B8 /* [CP] Copy Pods Resources */,
+				FCDC232203B5B0DCA018E9F9 /* [CP] Embed Pods Frameworks */,
+				79A661300E1A97B362F614D0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "mine-tvOSTests";
-			productName = "mine-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* mine-tvOSTests.xctest */;
+			name = "minesweeper-tvOSTests";
+			productName = "minesweeper-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* minesweeper-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -310,7 +310,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "mine" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "minesweeper" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -323,10 +323,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* mine */,
-				00E356ED1AD99517003FC87E /* mineTests */,
-				2D02E47A1E0B4A5D006451C7 /* mine-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* mine-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* minesweeper */,
+				00E356ED1AD99517003FC87E /* minesweeperTests */,
+				2D02E47A1E0B4A5D006451C7 /* minesweeper-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* minesweeper-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -380,29 +380,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		03A658CE5EFDDFB9E5741C44 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-mine-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		0B25511E109220AA114A9D14 /* [CP] Copy Pods Resources */ = {
+		159D6625EFA3C0F2F484FA15 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -418,10 +396,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mine-tvOS/Pods-mine-tvOS-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-minesweeper-tvOS/Pods-minesweeper-tvOS-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		0DEC9C0E8663A98BFE88A373 /* [CP] Check Pods Manifest.lock */ = {
+		22EF5169EBA7BAEE8A9A1828 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -429,18 +407,15 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-mine-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-minesweeperTests/Pods-minesweeperTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
@@ -457,26 +432,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		4D077F545A649049AA1BFF07 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mine/Pods-mine-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		845FE36A4F95E91CD5BF63B8 /* [CP] Copy Pods Resources */ = {
+		3B20E0A8DF317E548F50AB67 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -492,10 +448,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mine-tvOSTests/Pods-mine-tvOSTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-minesweeper/Pods-minesweeper-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9CF73C35AECDC090C6456EA6 /* [CP] Copy Pods Resources */ = {
+		79A661300E1A97B362F614D0 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -511,10 +467,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mineTests/Pods-mineTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-minesweeper-tvOSTests/Pods-minesweeper-tvOSTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9E2A776FC9049B8A63FDC0FE /* [CP] Embed Pods Frameworks */ = {
+		7D40FA31CD86AB606E61D5D7 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -530,10 +486,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mine-tvOS/Pods-mine-tvOS-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-minesweeper-tvOS/Pods-minesweeper-tvOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A05E56F0929A69A57C863A23 /* [CP] Check Pods Manifest.lock */ = {
+		B2B75D33C96D111C42883D4B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-minesweeper/Pods-minesweeper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7190EFE2C21175516C94BBA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -548,14 +523,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-mine-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-minesweeper-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B1E47F8FB3C309AC7D1B6DD7 /* [CP] Check Pods Manifest.lock */ = {
+		D2301A95C4B5A187FF236844 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -570,14 +545,36 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-mineTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-minesweeper-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CF3F4EEF376FBDC7365D0B3C /* [CP] Copy Pods Resources */ = {
+		DC2014376AA212503D1CAF3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-minesweeper-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F42858800386A8ECD20A644D /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -593,10 +590,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mine/Pods-mine-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-minesweeperTests/Pods-minesweeperTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D0CDDB52A86A107607CF004A /* [CP] Embed Pods Frameworks */ = {
+		FCDC232203B5B0DCA018E9F9 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -612,26 +609,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mine-tvOSTests/Pods-mine-tvOSTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DF7625C9CE2681EE71EADAA3 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mineTests/Pods-mineTests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-minesweeper-tvOSTests/Pods-minesweeper-tvOSTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -672,6 +650,28 @@
 			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		FDFF4B6DEDFD226814A79540 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-minesweeperTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -679,7 +679,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* mineTests.m in Sources */,
+				00E356F31AD99517003FC87E /* minesweeperTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -705,7 +705,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* mineTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* minesweeperTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -714,12 +714,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* mine */;
+			target = 13B07F861A680F5B00A75B9A /* minesweeper */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* mine-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* minesweeper-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -731,7 +731,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = mine;
+			path = minesweeper;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -739,14 +739,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FFAE63E55A31383DEA6FF4BC /* Pods-mineTests.debug.xcconfig */;
+			baseConfigurationReference = 504A1BC60B75D8DB44F44D22 /* Pods-minesweeperTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = mineTests/Info.plist;
+				INFOPLIST_FILE = minesweeperTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -756,17 +756,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mine.app/mine";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/minesweeper.app/minesweeper";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF4ED1E6CE7F575777760890 /* Pods-mineTests.release.xcconfig */;
+			baseConfigurationReference = F46BA32C58B33306D10F2300 /* Pods-minesweeperTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = mineTests/Info.plist;
+				INFOPLIST_FILE = minesweeperTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -776,18 +776,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mine.app/mine";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/minesweeper.app/minesweeper";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 417F11D4371A159004D7E372 /* Pods-mine.debug.xcconfig */;
+			baseConfigurationReference = 59F8A4ABC7498A5BBB8EFFD0 /* Pods-minesweeper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				INFOPLIST_FILE = mine/Info.plist;
+				INFOPLIST_FILE = minesweeper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -795,18 +795,18 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = mine;
+				PRODUCT_NAME = minesweeper;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 989874AC7BA06583B7ECD367 /* Pods-mine.release.xcconfig */;
+			baseConfigurationReference = 7249C2497C2DBC8035483E63 /* Pods-minesweeper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = mine/Info.plist;
+				INFOPLIST_FILE = minesweeper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -814,14 +814,14 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = mine;
+				PRODUCT_NAME = minesweeper;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC60B900B900AD38005BDFBA /* Pods-mine-tvOS.debug.xcconfig */;
+			baseConfigurationReference = FC0FD32B3423116910B59C2D /* Pods-minesweeper-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -832,14 +832,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "mine-tvOS/Info.plist";
+				INFOPLIST_FILE = "minesweeper-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.mine-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.minesweeper-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -849,7 +849,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02E8E91C139A5031C86852DD /* Pods-mine-tvOS.release.xcconfig */;
+			baseConfigurationReference = BAE4836F0CA0AC3C241FD11F /* Pods-minesweeper-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -860,14 +860,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "mine-tvOS/Info.plist";
+				INFOPLIST_FILE = "minesweeper-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.mine-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.minesweeper-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -877,7 +877,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37B3D80C0B92F4B1942CCDD9 /* Pods-mine-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 9C2EFAA8D8ED415214CC1AEA /* Pods-minesweeper-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -887,24 +887,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "mine-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "minesweeper-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.mine-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.minesweeper-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mine-tvOS.app/mine-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/minesweeper-tvOS.app/minesweeper-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6ED88C04805F7F68557794ED /* Pods-mine-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 77E9817967235BDEAF1315CE /* Pods-minesweeper-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -914,17 +914,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "mine-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "minesweeper-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.mine-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.minesweeper-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mine-tvOS.app/mine-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/minesweeper-tvOS.app/minesweeper-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -1031,7 +1031,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "mineTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "minesweeperTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -1040,7 +1040,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "mine" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "minesweeper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -1049,7 +1049,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "mine-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "minesweeper-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -1058,7 +1058,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "mine-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "minesweeper-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -1067,7 +1067,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "mine" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "minesweeper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

@@ -1,17 +1,27 @@
 import React, { Component } from 'react';
 import { View, StyleSheet, Text } from 'react-native';
 import params from '../../params';
+import Flag from '../flag/Flag.js';
+import Mine from '../mine/Mine.js';
 
 export default props => {
-    const { mined,  opened, nearMines } = props;
+    const { mined,  opened, nearMines, flagged, exploded } = props;
     const styleField = [styles.field];
 
     if (opened) {
         styleField.push(styles.opened);
     }
 
+    if (exploded) {
+        styleField.push(styles.exploded);
+    }
+
     if (styleField.length === 1) { 
         styleField.push(styles.regular);
+    }
+
+    if  (flagged) {
+        styleField.push(styles.flagged, styles.regular);
     }
 
     let color = null;
@@ -45,6 +55,12 @@ export default props => {
                     </Text> 
                 : false
             }
+            {
+                flagged && !opened ? <Flag /> : false
+            }
+            {
+                mined && opened ? <Mine /> : false
+            }
         </View>
     )
 
@@ -73,6 +89,10 @@ const styles = StyleSheet.create({
     label: {
         fontWeight: 'bold',
         fontSize: params.fontSize 
+    },
+    exploded: {
+        backgroundColor: 'red',
+        borderColor: 'red'
     }
 })
 

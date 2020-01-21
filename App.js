@@ -11,8 +11,10 @@ import {
   SafeAreaView,
   StyleSheet,
   ScrollView,
+  Text,
   View,
   StatusBar,
+  Alert
 } from 'react-native';
 
 import {
@@ -24,8 +26,17 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 import Field from './src/components/field/Field';
 import MineField from './src/components/mineField/MineField.js';
-import { createMinedBoard } from './src/controller.js';
+import { createMinedBoard, invertFlag } from './src/controller.js';
 import params from './src/params.js';
+import { 
+  reateMinedBoard,
+  cloneBoard,
+  openField,
+  hadExplosion,
+  wonGame,
+  showMines
+} from './src/controller';
+
 export default class APP extends Component {
   
   constructor(props) {
@@ -47,16 +58,57 @@ export default class APP extends Component {
     const rows = params.getRowAmount();
 
     return {
-      board: createMinedBoard(rows, cols, this.minesAmount())
+      board: createMinedBoard(rows, cols, this.minesAmount()),
+      won: false,
+      lost: false
     }
   }
+
+  onOpenField = (row, column) => {
+
+    const board = cloneBoard(this.state.board)
+    openField(board, row, column);
+
+    const lost = hadExplosion(board);
+    const won = wonGame(board);
+
+    if (lost) {
+      showMines(board);
+      Alert.alert('Voce perdeu...')
+    }
+
+    if (won) {
+      Alert.alert('Voce ganhou !')
+    }
+
+    this.setState({ board, lost, won });
+  }
+
+  onSelectField = (row, column) => {
+
+    const board = cloneBoard(this.state.board);
+    invertFlag(board, row, column);
+
+    const won = wonGame(board);
+
+    if(won) {
+      Alert.alert('Voce ganhou !');
+    }
+
+    this.setState({board, won})
+
+  };
+
 
   render() {
     
       return (
         <View style={ styles.container }>
           <View style={ styles.board }>
-            <MineField board={ this.state.board } />
+            <MineField 
+              board={ this.state.board } 
+              onOpenField={ this.onOpenField }
+              onSelectField = { this.onSelectField } />
           </View>
         </View>
     );

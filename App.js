@@ -18,7 +18,6 @@ import {
 } from 'react-native';
 
 import {
-  Header,
   LearnMoreLinks,
   Colors,
   DebugInstructions,
@@ -26,16 +25,18 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 import Field from './src/components/field/Field';
 import MineField from './src/components/mineField/MineField.js';
-import { createMinedBoard, invertFlag } from './src/controller.js';
+import { createMinedBoard, invertFlag, flagsUsed } from './src/controller.js';
 import params from './src/params.js';
 import { 
-  reateMinedBoard,
   cloneBoard,
   openField,
   hadExplosion,
   wonGame,
   showMines
 } from './src/controller';
+
+import Header from './src/components/header/Header.js';
+import LevelSelection from './src/pages/LevelSelection';
 
 export default class APP extends Component {
   
@@ -60,7 +61,8 @@ export default class APP extends Component {
     return {
       board: createMinedBoard(rows, cols, this.minesAmount()),
       won: false,
-      lost: false
+      lost: false,
+      showLevelSelection: false
     }
   }
 
@@ -74,11 +76,11 @@ export default class APP extends Component {
 
     if (lost) {
       showMines(board);
-      Alert.alert('Voce perdeu...')
+      Alert.alert('You lose...')
     }
 
     if (won) {
-      Alert.alert('Voce ganhou !')
+      Alert.alert('You win !')
     }
 
     this.setState({ board, lost, won });
@@ -91,19 +93,31 @@ export default class APP extends Component {
 
     const won = wonGame(board);
 
-    if(won) {
-      Alert.alert('Voce ganhou !');
+    if (won) {
+      Alert.alert('You win !');
     }
 
-    this.setState({board, won})
-
+    this.setState({ board, won })
   };
 
+  
+  onLevelSelected = level => {
+    params.difficultLevel = level;
+    this.setState(this.createState());
+  }
 
   render() {
-    
       return (
         <View style={ styles.container }>
+          <LevelSelection 
+          isVisible={ this.state.showLevelSelection }
+          onLevelSelected={ this.onLevelSelected }
+          onClose={() => this.setState({showLevelSelection: false}) } 
+          />
+          <Header 
+            flagsLeft={ this.minesAmount() - flagsUsed(this.state.board) } 
+            onNewGame={() => this.setState(this.createState)}
+            onFlagPress={() => this.setState({ showLevelSelection: true })} />
           <View style={ styles.board }>
             <MineField 
               board={ this.state.board } 

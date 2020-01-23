@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, StyleSheet, Alert } from 'react-native';
+import { View, StyleSheet } from 'react-native';
 import Field from '../field/Field.js';
 
 export default props => {
@@ -14,7 +14,7 @@ export default props => {
                 />
             );
         });
-
+ 
         return <View style={{ flexDirection:'row'}}  key={ r }>{ colums }</View>;
     });
     
